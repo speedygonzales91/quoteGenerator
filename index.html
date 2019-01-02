@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <title>Quote Gen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="startTime(); startDate(); newQuote()">
+        <div id="date"></div>
+        <div id="display"></div>
+        <div id="quoteDisplay">
+            <!--Quotes will appear here-->
+        </div>
+
+
+
+        <div id="b-nav">
+                <ul>
+                  <button onclick="newQuote()" type="button" class="btn btn-secondary">New Quote</button>
+                  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </ul>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
